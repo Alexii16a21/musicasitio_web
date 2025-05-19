@@ -1,28 +1,195 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Bienvenido a mi web de música</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Música Emocional</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4fa;
+      color: #333;
+    }
+
+    titulo {
+      background-color: #0a74da;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+     .logo-titulo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+      background-color: #0a74da;
+      color: white;
+    }
+
+    .logo-titulo img {
+      height: 50px;
+      width: 50px;
+    }
+
+    .logo-titulo h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #e3ecf9;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #0a74da;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #085bb5;
+      text-decoration: underline;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .intro h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .intro p {
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .beneficios h2,
+    .contenido h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .cards div {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cards h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .contenido p {
+      max-width: 800px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #0a74da;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+  </style>
 </head>
 
+<body>
 
-    <h1 align="center"><font color="blue">Bienvenido a mi página de Música</font></h1>
+  <div class="logo-titulo">
+    <img src="storage:emulated/0/Protecto HTML/Emomusic/imagenes/Logo.png" alt="Logo de EmoMusic">
+    <h1>Emociones y música</h1>
+  </div>
 
-    <p><b>¿Te gusta la música?</b></p>
-    <p>La música es el arte de combinar sonidos de la voz humana o de los instrumentos, creando melodías que producen deleite, emoción y sensibilidad.</p>
 
-        <h3 align="center">Elementos de la Música</h3>
+  <nav>
+    
+    <a href="emciones_y_generos.html">Emociones y Géneros</a>
+    <a href="cerebroyMusica.html">NeuroMúsica</a>
+    <a href="https://snapmuse.com/es/royalty-free-music-by-moods">Recomendación Musical</a>
+  </nav>
 
-    <h4>Melodía</h4>
-    <p>La melodía es el conjunto de sonidos que se ordena de forma sucesiva y que se percibe como una unidad completa de sonido, con identidad y significado propio. Cuando suenan dos o más melodías simultáneas, se habla de contrapunto.</p>
+  <div class="intro">
+    <h2>La música y tus emociones</h2>
+    <p>Explora cómo los sonidos transforman tu estado de ánimo y bienestar emocional</p>
+  </div>
 
-    <h4>Ritmo</h4>
-    <p>El ritmo es la organización del tiempo en la música a través de la sucesión de sonidos y silencios. Es lo que otorga estructura a una pieza musical. Sus elementos principales son pulso, acento y compás.</p>
+  <section class="beneficios">
+    <h2>Beneficios de la música</h2>
+    <div class="cards">
+      <div>
+        <h3>🎧 Mejora el estado de ánimo</h3>
+        <p>La música puede elevar instantáneamente tu espíritu y cambiar tu perspectiva.</p>
+      </div>
+      <div>
+        <h3>🧘‍♀️ Reduce el estrés</h3>
+        <p>Melodías suaves disminuyen los niveles de cortisol, la hormona del estrés.</p>
+      </div>
+      <div>
+        <h3>💡 Estimula la creatividad</h3>
+        <p>Ciertos ritmos activan áreas cerebrales asociadas con el pensamiento innovador.</p>
+      </div>
+      <div>
+        <h3>❤️ Conecta con sentimientos</h3>
+        <p>La música puede expresar emociones que las palabras no pueden capturar.</p>
+      </div>
+    </div>
+  </section>
 
-    <h4>Armonía</h4>
-    <p>La armonía (o polifonía) es la combinación simultánea de notas diferentes. Puede ser consonante (si se considera “grata” al oído) o disonante (si suena tensa o áspera). La armonía es el pilar de la música occidental y uno de sus elementos fundamentales son los acordes: conjuntos de tres o más sonidos tocados de forma simultánea.</p>
+  <section class="contenido">
+    <h2>El poder transformador de la música</h2>
+    <p>Este espacio explora cómo la música influye en nuestras emociones y cómo puedes aprovecharla para mejorar tu bienestar emocional y mental. Desde la antigüedad, las civilizaciones han utilizado la música como herramienta terapéutica, y hoy la ciencia confirma sus beneficios.</p>
+    
+    <h3>¿Por qué la música nos afecta tanto?</h3>
+    <p>Cuando escuchamos música, nuestro cerebro libera dopamina, el neurotransmisor del placer. Esto explica por qué una canción puede ponernos la piel de gallina o hacernos sentir euforia. Además, la música activa múltiples áreas cerebrales simultáneamente, incluyendo aquellas relacionadas con las emociones, la memoria y el movimiento.</p>
+  </section>
 
-    <p><i>¡La música es universal!</i></p>
-<body background="C:\Users\Estudiante\Desktop\Mi administrador web\Mi administrador web\Fondo3.jpg">
-
+  <footer>
+    <p>📱 💻 📸 🎵</p>
+    <p>© 2025 EmoMusic</p>
+    <p>Contacto: alexander.gavilanes2235@utc.edu.ec</p>
+  </footer>
 
 </body>
+
 </html>

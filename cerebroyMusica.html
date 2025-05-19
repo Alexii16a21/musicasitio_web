@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Música  Emocional</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #1A0023;
+      color: #E6E6FA;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #5a44da;
+      color: #FFD600;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .card {
+      background-color: #2A0944;
+      border-left: 5px solid #9B30FF;
+      padding: 25px;
+      margin: 25px 0;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h1, h2, h3 {
+      color: #BA55D3;
+      margin-top: 0;
+    }
+    .highlight {
+      background-color: #4B0082;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 25px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .quote {
+      font-style: italic;
+      border-left: 3px solid #9370DB;
+      padding: 15px;
+      margin: 20px 0;
+      color: #D8BFD8;
+      background-color: rgba(74, 20, 140, 0.3);
+      border-radius: 0 8px 8px 0;
+    }
+    .disorder-card {
+      background-color: #3B185F;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      border: 1px solid #8A2BE2;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .media-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
+      gap: 20px;
+    }
+    .video-container {
+      width: 100%;
+      margin-bottom: 25px;
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      border: 2px solid #8A2BE2;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 25px 0;
+      justify-content: center;
+    }
+    nav {
+      background-color: #e1ecf9;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #0a24da;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #025bb5;
+      text-decoration: underline;
+      
+    }
+    .image-gallery img {
+      width: calc(33.333% - 15px);
+      max-width: 300px;
+      border-radius: 8px;
+      border: 2px solid #9370DB;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .image-gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+    .video-description {
+      text-align: center;
+      margin-top: 10px;
+      font-style: italic;
+      color: #D8BFD8;
+    }
+    @media (max-width: 768px) {
+      .image-gallery img {
+        width: 100%;
+        max-width: 100%;
+      }
+      .container {
+        padding: 15px;
+      }
+      .card, .highlight, .disorder-card {
+        padding: 15px;
+      }
+    }
+     footer {
+            background-color: #5a44da;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+        margin: 8px 0;
+        } 
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NeuroMúsica: Cómo la Música Transforma tu Cerebro</h1>
+    
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="emciones_y_generos.html">Emociones y Géneros</a>
+    
+    <a href="https://snapmuse.com/es/royalty-free-music-by-moods">Recomendación Musical</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>La Música como Lenguaje Universal</h2>
+      <p>La música es un lenguaje específico de los humanos que presenta características únicas no compartidas con otras habilidades cognitivas. Según Miriam Albusac, la exposición diaria a la música ha llevado a la comunidad científica a estudiar intensamente su arquitectura neuronal.</p>
+      
+      <div class="video-container">
+        <iframe src="https://youtu.be/ex5IAQw2pUc?si=R7n_AE-Tf7xit7IO" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      </div>
+      <p class="video-description">Conferencia de Miriam Albusac sobre neurociencia musical</p>
+    </div>
+
+    <div class="highlight">
+      <h2>Efectos Cerebrales de la Música</h2>
+      <ul>
+        <li><strong>Plasticidad cerebral:</strong> El aprendizaje musical produce cambios estructurales y funcionales en el cerebro</li>
+        <li><strong>Mejoras cognitivas:</strong> Mayor discriminación auditiva, sincronización motora y memoria verbal</li>
+        <li><strong>Desarrollo intelectual:</strong> Aumento del coeficiente intelectual en personas con formación musical</li>
+      </ul>
+      
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cerebro y música">
+        <img src="https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Plasticidad cerebral">
+        <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Músico profesional">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Música y Emoción</h2>
+      <p>La música tiene un impacto profundo en las áreas cerebrales relacionadas con la emoción:</p>
+      <ul>
+        <li>Amígdala (procesamiento emocional)</li>
+        <li>Hipotálamo (respuestas fisiológicas)</li>
+        <li>Hipocampo (memoria emocional)</li>
+        <li>Corteza orbitofrontal (regulación emocional)</li>
+      </ul>
+      <div class="quote">
+        "La música tiene el potencial de modular la actividad cerebral en estructuras emocionales, ofreciendo oportunidades para tratar trastornos psiquiátricos y neurológicos" - Miriam Albusac
+      </div>
+      
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Emociones y música">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cerebro musical">
+        <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Terapia musical">
+      </div>
+    </div>
+
+    <h2>Trastornos Musicales</h2>
+
+    <div class="disorder-card">
+      <h3>Amusia Musical</h3>
+      <p>Incapacidad para reconocer melodías simples, también conocida como "sordera tonal". Puede ser congénita o adquirida, manifestándose como dificultad para reconocer tonos y melodías básicas.</p>
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Amusia">
+      </div>
+    </div>
+
+    <div class="disorder-card">
+      <h3>Agnosia Musical</h3>
+      <p>Incapacidad de procesar información musical a pesar de no tener impedimentos sensoriales o intelectuales. Causada por daño en el lóbulo temporal derecho, afectando el reconocimiento de tonos, acordes y ritmos.</p>
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Agnosia">
+      </div>
+    </div>
+
+    <div class="disorder-card">
+      <h3>Sinestesia Musical</h3>
+      <p>Condición donde la música activa sensaciones en otros sentidos (gusto, tacto o vista). Las personas describen piezas musicales como "dulces", "ásperas" o "brillantes". Tiene un fuerte componente genético.</p>
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sinestesia">
+      </div>
+    </div>
+
+    <div class="highlight">
+      <h2>Aplicaciones Terapéuticas</h2>
+      <p>La neurociencia musical está revolucionando tratamientos para:</p>
+      <ul>
+        <li>Trastornos del estado de ánimo (depresión, ansiedad)</li>
+        <li>Enfermedades neurodegenerativas (Alzheimer, Parkinson)</li>
+        <li>Problemas de desarrollo (autismo, TDAH)</li>
+        <li>Rehabilitación neurológica (tras ictus o traumatismos)</li>
+      </ul>
+      
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/dVYkD5Z7r5E" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      </div>
+      <p class="video-description">Ejemplo de musicoterapia para pacientes con Alzheimer</p>
+      
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Musicoterapia">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Terapia musical">
+        <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Rehabilitación">
+      </div>
+    </div>
+  </div>
+  <footer>
+        <p>&copy; Todos los derechos reservados</p>
+        <p>© 2025 NeuroMúsica | Explorando el cerebro a través de la música</p> <p>Contacto:alexander.gavilanes2235@utc.edu.ec</p> 
+    </footer>
+    
+</body>
+</html>
